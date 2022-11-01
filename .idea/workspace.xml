@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f142a41-db9a-4b2c-a778-02fcbf0c2e25" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_02_10_22nj_l2/Cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_10_22nj_l2/ccfd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_31_10_22nJ_l1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_31_10_22nJ_l1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_31_10_22nJ_l1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_31_10_22nJ_l1/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_31_10_22nJ_l1/_31_10_22nJ.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_31_10_22nJ_l1/out/production/_31_10_22nJ/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_31_10_22nJ_l1/out/production/_31_10_22nJ/HelloCat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_31_10_22nJ_l1/src/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_31_10_22nJ_l1/src/HelloCat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_10_22nj_l2/Cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_10_22nj_l2/ccfd.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,18 +25,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/GitHub/JavaProfessionalKurs&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Lenovo/IdeaProjects/JavaProfessionalKurs"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\GitHub\JavaProfessionalKurs\lesson1_31_10_22\src" />
+      <recent name="F:\GitHub\JavaProfessionalKurs\new\src" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="HelloCat" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/jdk-18.0.1.1" />
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../Program Files/jdk-18.0.1.1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="HelloCat" />
       <method v="2">
@@ -63,6 +60,9 @@
       <updated>1667302963283</updated>
       <workItem from="1667302966590" duration="3428000" />
       <workItem from="1667309179209" duration="2661000" />
+      <workItem from="1667316299585" duration="248000" />
+      <workItem from="1667318104777" duration="1742000" />
+      <workItem from="1667320462201" duration="53000" />
     </task>
     <servers />
   </component>
