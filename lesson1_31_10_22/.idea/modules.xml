@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/lesson1_31_10_22.iml" filepath="$PROJECT_DIR$/lesson1_31_10_22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaProfKurs.iml" filepath="$PROJECT_DIR$/JavaProfKurs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson1_31_10_22/lesson1_31_10_22.iml" filepath="$PROJECT_DIR$/lesson1_31_10_22/lesson1_31_10_22.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson2_02_11_22/lesson2_02_11_22.iml" filepath="$PROJECT_DIR$/lesson2_02_11_22/lesson2_02_11_22.iml" />
     </modules>
   </component>
