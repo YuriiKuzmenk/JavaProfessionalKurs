@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f142a41-db9a-4b2c-a778-02fcbf0c2e25" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Java/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/JavaProfKurs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/lesson1_31_10_22/lesson1_31_10_22.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1_31_10_22/lesson1_31_10_22.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/lesson1_31_10_22/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1_31_10_22/src/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/lesson1_31_10_22/src/HelloCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1_31_10_22/src/HelloCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/lesson2_02_11_22/lesson2_02_11_22.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/lesson2_02_11_22/lesson2_02_11_22.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/out/production/lesson1_31_10_22/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/out/production/lesson1_31_10_22/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/out/production/lesson1_31_10_22/HelloCat.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/out/production/lesson1_31_10_22/HelloCat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/out/production/lesson2_02_11_22/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/out/production/lesson2_02_11_22/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/out/production/lesson2_02_11_22/HelloCat.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/out/production/lesson2_02_11_22/HelloCat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/new.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/out/production/new/NJL_01_31_10_22/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/out/production/new/NJL_01_31_10_22/HelloCat.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +48,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Lenovo/IdeaProjects/JavaProfessionalKurs/lesson1_31_10_22",
-    "project.structure.last.edited": "Project",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "C:/Users/Lenovo/IdeaProjects/JavaProfessionalKurs",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
@@ -65,6 +85,7 @@
       <workItem from="1667318104777" duration="1742000" />
       <workItem from="1667320462201" duration="53000" />
       <workItem from="1667320597404" duration="421000" />
+      <workItem from="1667322393310" duration="354000" />
     </task>
     <servers />
   </component>
