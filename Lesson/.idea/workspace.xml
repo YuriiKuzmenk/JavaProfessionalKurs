@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f0a303cf-a7f5-49ad-a170-d41b09d64136" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/lesson2_02_11_22/lesson2_02_11_22.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson2_02_11_22/lesson2_02_11_22.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/out/production/lesson1_31_10_22/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lesson/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/out/production/lesson1_31_10_22/HelloCat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lesson/HelloCat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/out/production/lesson2_02_11_22/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/out/production/lesson2_02_11_22/HelloCat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson1_31_10_22/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson1_31_10_22/src/HelloCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloCat.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GxHcBlx9oPzSVaROqbpgWv2xx0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\IdeaProjects\JavaProfessionalKurs\Lesson\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HelloCat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloCat" />
+      <module name="Lesson" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloCat" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0a303cf-a7f5-49ad-a170-d41b09d64136" name="Changes" comment="" />
+      <created>1667323394762</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667323394762</updated>
+      <workItem from="1667323397303" duration="412000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f142a41-db9a-4b2c-a778-02fcbf0c2e25" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Java/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/JavaProfKurs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/lesson1_31_10_22/lesson1_31_10_22.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1_31_10_22/lesson1_31_10_22.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/lesson1_31_10_22/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1_31_10_22/src/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/lesson1_31_10_22/src/HelloCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1_31_10_22/src/HelloCat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/lesson2_02_11_22/lesson2_02_11_22.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/lesson2_02_11_22/lesson2_02_11_22.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/out/production/lesson1_31_10_22/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/out/production/lesson1_31_10_22/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/out/production/lesson1_31_10_22/HelloCat.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/out/production/lesson1_31_10_22/HelloCat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/out/production/lesson2_02_11_22/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/out/production/lesson2_02_11_22/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/out/production/lesson2_02_11_22/HelloCat.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/out/production/lesson2_02_11_22/HelloCat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/new.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/out/production/new/NJL_01_31_10_22/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/out/production/new/NJL_01_31_10_22/HelloCat.class" beforeDir="false" />
+    <list default="true" id="5f142a41-db9a-4b2c-a778-02fcbf0c2e25" name="Changes" comment="34">
+      <change afterPath="$PROJECT_DIR$/Lesson/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson/Lesson.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/lesson2_02_11_22/lesson2_02_11_22.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2_02_11_22/lesson2_02_11_22.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/out/production/lesson1_31_10_22/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson/out/production/Lesson/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/out/production/lesson1_31_10_22/HelloCat.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson/out/production/Lesson/HelloCat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/out/production/lesson2_02_11_22/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/out/production/lesson2_02_11_22/HelloCat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson/src/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1_31_10_22/src/HelloCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson/src/HelloCat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +44,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "18",
     "last_opened_file_path": "C:/Users/Lenovo/IdeaProjects/JavaProfessionalKurs",
@@ -57,6 +55,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\IdeaProjects\JavaProfessionalKurs" />
       <recent name="F:\GitHub\JavaProfessionalKurs\lesson1_31_10_22\src" />
       <recent name="F:\GitHub\JavaProfessionalKurs\new\src" />
     </key>
@@ -85,8 +84,16 @@
       <workItem from="1667318104777" duration="1742000" />
       <workItem from="1667320462201" duration="53000" />
       <workItem from="1667320597404" duration="421000" />
-      <workItem from="1667322393310" duration="354000" />
+      <workItem from="1667322393310" duration="1399000" />
     </task>
+    <task id="LOCAL-00001" summary="34">
+      <created>1667322825891</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667322825891</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,5 +112,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="34" />
+    <option name="LAST_COMMIT_MESSAGE" value="34" />
   </component>
 </project>
