@@ -12,7 +12,7 @@ public class MainZoo {
         Cat cat = new Cat("Barsik", "red",3 );
         Dog dog = new Dog("Sharik", "black",5 );
 
-        Cat emptyCat=new Cat();
+        Cat emptyCat = new Cat();
 
         cat.voice();
         dog.voice();

@@ -11,7 +11,7 @@ public class Animal {
         this.age = age;
     }
 
-    public Animal () {};
+    public Animal () {}
 
     public void voice(){
         System.out.println("unknown!");

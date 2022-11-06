@@ -6,8 +6,8 @@ public class Cat extends Animal {
     }
 
     public Cat() {
-        super();
-    };
+        super(); //без этой строки тоже все работает, после того как мы добавили конструктор в Animal
+    }
 
     @Override
     public void voice() {
