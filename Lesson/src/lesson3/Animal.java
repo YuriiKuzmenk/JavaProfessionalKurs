@@ -1,11 +1,9 @@
-package homework2;
+package lesson3;
 
 public class Animal {
     protected String name;
     protected String color;
     protected int age;
-
-    public Animal () {}
 
     public Animal(String name, String color, int age) {
         this.name = name;
