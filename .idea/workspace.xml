@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f142a41-db9a-4b2c-a778-02fcbf0c2e25" name="Changes" comment="34">
-      <change afterPath="$PROJECT_DIR$/homework_3/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_3/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_3/out/production/homework_3/homework3/Animal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_3/out/production/homework_3/homework3/Cat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_3/out/production/homework_3/homework3/Dog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_3/out/production/homework_3/homework3/IAnimal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_3/out/production/homework_3/homework3/SportTrener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_3/src/homework3/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_3/src/homework3/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_3/src/homework3/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_3/src/homework3/IAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_3/src/homework3/SportTrener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson2_02_11_22/lesson2_02_11_22.iml" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/homework_3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/newR.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="5f142a41-db9a-4b2c-a778-02fcbf0c2e25" name="Changes" comment="34" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +75,7 @@
       <workItem from="1667322393310" duration="1399000" />
       <workItem from="1668360822526" duration="5980000" />
       <workItem from="1668373781999" duration="1182000" />
-      <workItem from="1668442405817" duration="354000" />
+      <workItem from="1668442405817" duration="416000" />
     </task>
     <task id="LOCAL-00001" summary="34">
       <created>1667322825891</created>
