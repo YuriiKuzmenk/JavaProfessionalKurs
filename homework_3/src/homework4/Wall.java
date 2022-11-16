@@ -1,6 +1,18 @@
 package homework4;
 
-public class Wall {
-    int hight = 5;
-    int wall (hight);
+public class Wall implements Obstacle {
+    private int height;
+
+    public Wall(int height) {
+        this.height = height;
+    }
+    @Override
+    public String getType() {
+        return "wall";
+    }
+
+    @Override
+    public int getSize() {
+        return height;
+    }
 }
