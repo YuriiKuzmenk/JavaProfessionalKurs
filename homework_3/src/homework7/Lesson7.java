@@ -1,5 +1,12 @@
 package homework7;
 
+/**
+ * Java. Homework №7.
+ *
+ * @author Yurii Kuzmenko java_39e
+ * @version 21.11.2022 - 24.11.2022
+ */
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
