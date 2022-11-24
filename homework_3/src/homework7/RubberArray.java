@@ -74,7 +74,7 @@ public class RubberArray <T> implements Iterable<T> {
 
         @Override
         public T next() {
-            return array[++cursor];
+            return array[cursor++];
         }
     }
 }
