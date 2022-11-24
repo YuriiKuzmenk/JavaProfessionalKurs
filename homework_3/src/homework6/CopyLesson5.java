@@ -7,7 +7,7 @@ package homework6;
  * @version 17.11.2022 - 20.11.2022
  */
 
-public class copylesson5 {
+public class CopyLesson5 {
     public static void main(String[] args) {
         RubberArray6 ra = new RubberArray6();
         ra.addAll("abc", "def", "c", "d");
