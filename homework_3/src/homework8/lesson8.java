@@ -1,7 +1,7 @@
 package homework8;
 
 /**
- * Java. Homework №7.
+ * Java. Homework №8.
  *
  * @author Yurii Kuzmenko java_39e
  * @version 24.11.2022 - 28.11.2022
