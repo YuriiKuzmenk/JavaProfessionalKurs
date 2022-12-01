@@ -9,9 +9,9 @@ public class lesson8 {
         rl.add(8);
         rl.add(3);
         System.out.println(rl);
-        rl.remove(12);
+        rl.remove(4);
         rl.remove(8);
-        rl.remove(3);
+        rl.remove(8);
         System.out.println(rl);
     }
 }
