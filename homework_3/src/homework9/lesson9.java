@@ -1,5 +1,12 @@
 package homework9;
 
+/**
+ * Java. Homework №9.
+ *
+ * @author Yurii Kuzmenko java_39e
+ * @version 28.11.2022 - 01.12.2022
+ */
+
 import java.util.Iterator;
 
 public class lesson9 {
