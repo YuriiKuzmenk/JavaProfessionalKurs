@@ -11,7 +11,7 @@ public class Database {
 
     public Database(List<Employee> employees) {
         // create list
-        this.employees = new ArrayList<>();
+        this.employees = new ArrayList<>(employees);
         // create map (index)
         this.indexMap = new HashMap<>();
         for (Employee employee : employees) {
