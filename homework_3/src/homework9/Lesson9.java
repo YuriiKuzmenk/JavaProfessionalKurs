@@ -9,7 +9,7 @@ package homework9;
 
 import java.util.Iterator;
 
-public class lesson9 {
+public class Lesson9 {
     public static void main(String[] args) {
         RubberList<Integer> rl = new RubberList<>();
         rl.addAll(3, 5, 12, 8, 15);

@@ -7,7 +7,7 @@ package homework8;
  * @version 24.11.2022 - 28.11.2022
  */
 
-public class lesson8 {
+public class Lesson8 {
     public static void main(String[] args) {
         RubberList<Integer> rl = new RubberList<>();
         System.out.println(rl);

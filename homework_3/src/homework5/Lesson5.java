@@ -7,7 +7,7 @@ package homework5;
  * @version 14.11.2022 - 17.11.2022
  */
 
-public class lesson5 {
+public class Lesson5 {
     public static void main(String[] args) {
         RubberArray ra = new RubberArray();
         System.out.println(ra);
