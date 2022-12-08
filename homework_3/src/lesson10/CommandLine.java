@@ -1,31 +1,32 @@
 package lesson10;
 
+import homework10.Database;
+import homework10.DbInit;
+
 import java.util.Scanner;
 
 public class CommandLine {
     public void exec() {
-        Database db = new Database();
+        homework10.Database db = new Database();
         db.init(DbInit.init());
         Scanner scanner = new Scanner(System.in);
         while (true) {
             System.out.print("# ");
             String cmd = scanner.next();
-            switch (cmd) {
-                case "c":
+            switch (cmd.toLowerCase().charAt(0)) {
+                case 'c':
                     db.create();
                     break;
-                case "r":
+                case 'r':
                     db.read();
                     break;
-                case "u":
+                case 'u':
                     db.update();
                     break;
-                case "d":
+                case 'd':
                     db.delete();
                     break;
-                case 'f':
-                    db.init();
-                case "x":
+                case 'x':
                     System.out.println("Exit of command line.");
                     return;
                 default:

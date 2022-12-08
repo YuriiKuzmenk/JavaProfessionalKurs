@@ -1,62 +1,45 @@
-package lesson11;
+package lesson10;
+
+import homework10.Employee;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class Database {
-    List<Employee> employees = new ArrayList<>();
+    List<homework10.Employee> employees = new ArrayList<>();
     Scanner scanner = new Scanner(System.in);
 
-    public void init(List<Employee> employees) {
+    public void init(List<homework10.Employee> employees) {
         this.employees.addAll(employees);
     }
 
     public void create() {
-        System.out.print("create: ");
+        System.out.println("create: ");
         String name = scanner.next();
         String position = scanner.next();
         int salary = scanner.nextInt();
         int age = scanner.nextInt();
-        employees.add(new Employee(name, position, salary, age));
+        employees.add(new homework10.Employee(name, position, salary, age));
     }
 
     public void read() {
-        print(employees);
-    }
-
-    public void find() {
-        String name = DataUtil.getString("find: ");
-        List<Employee> found = new ArrayList<>();
-        for (Employee employee:employees) {
-           //if (employee.getName().equalsIgnoreCase(name) {
-             if (employee.getName().contains(name)) {
-                found.add(employee);
-            }
-        }
-        print(found);
-
-    }
-
-    private void print(List<Employee> toPrint) {
-        for(Employee employee: toPrint) {
+        for (homework10.Employee employee : employees) {
             System.out.println(employee);
         }
     }
 
-    /*
-    private Employee findByName (String name){
-        for (Employee employee : employees) {
+    private homework10.Employee findByName (String name){
+        for (homework10.Employee employee : employees) {
             if (employee.getName().equalsIgnoreCase(name)) {
                 return employee;
             }
         }
         return null;
     }
-     */
 
-    private Employee findById(int id){
-        for (Employee employee : employees) {
+    private homework10.Employee findById(int id){
+        for (homework10.Employee employee : employees) {
             if (employee.getId()==id) {
                 return employee;
             }
@@ -65,8 +48,9 @@ public class Database {
     }
 
     public void update() {
-        int id = DataUtil.getInt("");
-        Employee employee = findById(id);
+        System.out.print("update, find by id: ");
+        int id = scanner.nextInt();
+        homework10.Employee employee = findById(id);
         if (employee != null) {
             System.out.print("update (position, salary, age): ");
             String position = scanner.next();

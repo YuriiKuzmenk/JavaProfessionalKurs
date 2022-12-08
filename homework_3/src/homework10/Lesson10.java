@@ -47,4 +47,7 @@ public class Lesson10 {
         System.out.println(queue.peek());
         System.out.println(queue);
     }
+
+
+
 }

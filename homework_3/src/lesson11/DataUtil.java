@@ -33,7 +33,7 @@ public class DataUtil {
         System.out.print(promt);
         String position = scanner.next();
         int salary;
-        int
+        int salar;
         //TODO:дописать
         return null;
     }

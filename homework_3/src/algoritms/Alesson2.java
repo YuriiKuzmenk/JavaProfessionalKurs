@@ -1,4 +1,4 @@
-package algoritms;
+/*package algoritms;
 
 import java.util.Random;
 
@@ -54,3 +54,4 @@ public class Alesson2 {
         highArray.display();
     }
 }
+*/

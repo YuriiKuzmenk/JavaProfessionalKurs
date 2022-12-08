@@ -3,7 +3,8 @@ package lesson11;
 /**
  *Java professional. Lesson #11
  * - применение HashMap
- * -
+ * - enums in Java
+ * - equals() and hashCode()
  */
 
 public class Lesson11 {

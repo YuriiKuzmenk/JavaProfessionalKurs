@@ -10,20 +10,20 @@ public class CommandLine {
         while (true) {
             System.out.print("# ");
             String cmd = scanner.next();
-            switch (cmd) {
-                case "c":
+            switch (cmd.toLowerCase().charAt(0)) {
+                case 'c':
                     db.create();
                     break;
-                case "r":
+                case 'r':
                     db.read();
                     break;
-                case "u":
+                case 'u':
                     db.update();
                     break;
-                case "d":
+                case 'd':
                     db.delete();
                     break;
-                case "x":
+                case 'x':
                     System.out.println("Exit of command line.");
                     return;
                 default:
