@@ -1,9 +1,6 @@
-package homework11;
+package homework12;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Database {
     List<Employee> employees;
@@ -12,7 +9,6 @@ public class Database {
     public Database(List<Employee> employees) {
         // create list
         this.employees = new ArrayList<>(employees);
-        //this.employees.addAll();
         // create map (index)
         this.indexMap = new HashMap<>();
         for (Employee employee : employees) {
@@ -22,8 +18,11 @@ public class Database {
 
     public void create() {
         Employee employee = DataUtil.getEmployee("create: ");
-        employees.add(employee);
-        indexMap.put(employee.getId(), employee);
+        if (employee != null){
+            employees.add(employee);
+            indexMap.put(employee.getId(), employee);
+            System.out.println("Added " + employee);
+        }
     }
 
     public void read() {
@@ -42,25 +41,8 @@ public class Database {
         DataUtil.print(found);
     }
 
-    /*
-    private Employee findByName (String name){
-        for (Employee employee : employees) {
-            if (employee.getName().equalsIgnoreCase(name)) {
-                return employee;
-            }
-        }
-        return null;
-    }
-     */
-
     private Employee findById(int id){
         return indexMap.get(id);
- //       for (Employee employee : employees) {
- //           if (employee.getId()==id) {
- //               return employee;
- //           }
- //       }
- //       return null;
     }
 
     public void update() {
@@ -68,8 +50,10 @@ public class Database {
         Employee employee = findById(id);
         if (employee != null) {
             Employee tmp = DataUtil.getEmployeePart("update (position, salary, age): ");
-            employee.update(tmp.getPosition(), tmp.getSalary(), tmp.getAge());
-            System.out.println("Updated " + employee);
+            if (tmp != null) {
+                employee.update(tmp.getPosition(), tmp.getSalary(), tmp.getAge());
+                System.out.println("Updated " + employee);
+            }
         }
     }
 
@@ -82,4 +66,27 @@ public class Database {
             System.out.println("Deleted " + employee);
         }
     }
+
+    public void positions() {
+        List<Position> positions = new ArrayList<>();
+        for (Employee employee: employees) {
+            positions.add(employee.getPosition());
+        }
+        System.out.println(new HashSet<>(positions));
+    }
+
+    public void sort() {
+        // create map (index)
+        Map<Integer, Employee> sortMap = new TreeMap<>();
+        for (Employee employee : employees) {
+            sortMap.put(employee.getAge(), employee);
+        }
+        // created sorted List
+        List<Employee> sortList = new ArrayList<>();
+        for (Integer key : sortMap.keySet()) {
+            sortList.add(sortMap.get(key));
+        }
+        DataUtil.print(sortList);
+    }
+
 }

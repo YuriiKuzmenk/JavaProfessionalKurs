@@ -1,5 +1,5 @@
-/*package algoritms;
-
+package algoritms;
+/*
 public class HighArray {
     private long[] a; // инкапсулируем переменные
     private int nElems;
@@ -81,5 +81,4 @@ public class HighArray {
             System.out.println();
     }
 }
-
- */
+*/

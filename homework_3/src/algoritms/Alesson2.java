@@ -1,10 +1,11 @@
-/*package algoritms;
-
+package algoritms;
+/*
 import java.util.Random;
 
 public class Alesson2 {
-    static int [] arr = new int [10];
-    static Random random = new Random;
+
+    static int [] arr = new int [10];   //Декларация массива
+    static Random random = new Random;  //Генератор ПСЕВДОслучайных   чисел
 
     public static void main(String[] args) {
         for (int i = 0; i < arr.length; i++)
