@@ -1,6 +1,10 @@
 package algoritms.homework_02;
-
+/*
 public class Human {
-    public int [] array = new int [10];
-    int n = array.length;
+    private int[] x;
+
+    public Human(int size) {
+     int x = new int(size);
 }
+}
+*/

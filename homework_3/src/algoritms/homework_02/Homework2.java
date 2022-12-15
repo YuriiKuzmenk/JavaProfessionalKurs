@@ -2,8 +2,9 @@ package algoritms.homework_02;
 /*
 public class Homework2 {
     public static void main(String[] args) {
+        Human arr1 = new Human();
         int index =
-        int[] arraySort = Human;
+        int[] arraySort = Human.array;
     }
 
         private void sort (int array){
@@ -27,5 +28,4 @@ public class Homework2 {
     }
 
 }
-
- */
+*/

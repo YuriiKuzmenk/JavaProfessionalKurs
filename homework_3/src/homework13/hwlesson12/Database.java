@@ -1,4 +1,4 @@
-package lesson12;
+package homework13.hwlesson12;
 
 import java.util.*;
 
@@ -77,7 +77,7 @@ public class Database {
 
     public void sort() {
         Comparator<Employee> comparatorName = new ComparatorName();
-        List<Employee> sortedList = new ArrayList<>();
+        List<Employee> sortedList = new ArrayList<>(employees);
         sortedList.sort(comparatorName);
         DataUtil.print(sortedList);
     /*
