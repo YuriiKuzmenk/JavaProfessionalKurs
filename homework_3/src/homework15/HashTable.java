@@ -1,21 +1,42 @@
-package homework14;
+package homework15;
 
 public class HashTable<K, V> {
-    private int capacity = 4;
-    private Entry<K, V>[] table = new Entry[capacity];
+    private int capacity = 16;
+    private Entry<K, V>[] table;
     private int size = 0;
+
+    public HashTable() {
+        this.table = new Entry[capacity];
+    }
+
+    public HashTable(int capacity) {
+        this.capacity = capacity;
+        this.table = new Entry[capacity];
+    }
+
+    public Entry<K, V>[] getTable() {
+        return table;
+    }
 
     public void put(K key, V value) {
         int hash = key.hashCode();
-        Entry<K, V> entry = new Entry<>(hash, key, value);
         int idx = hash & (capacity - 1);
+        Entry<K, V> entry = new Entry<>(hash, key, value);
         System.out.println(idx);
         if(table[idx] == null) {
             table[idx] = entry;
         } else {
             Entry<K, V> pointer = table[idx];
             while(pointer.next != null) {
+                if (pointer.key.equals(key)){
+                    pointer.value = value;
+                    return;
+                }
                 pointer = pointer.next;
+            }
+            if (pointer.key.equals(key)){
+                pointer.value = value;
+                return;
             }
             pointer.next = entry;
         }
@@ -27,7 +48,7 @@ public class HashTable<K, V> {
         int idx = hash & (capacity - 1);
         if (table[idx] == null) {
             return null;
-        } else {}
+        }
     }
 */
     public V get(K key){
@@ -36,13 +57,6 @@ public class HashTable<K, V> {
         if (table[idx] == null) {
             return null;
         }
- /*
-        else {
-            //TODO full search if we have list
-            if(table[idx].key.equals(key)) {
-                return table[idx].value;
-            }
- */
         Entry<K, V> pointer = table[idx];
         do {
             if (pointer.key.equals(key)){
@@ -53,23 +67,6 @@ public class HashTable<K, V> {
         return null;
     }
 
-/*
-    public K get(V value){
-        int hash = value.hashCode();
-        int idx = hash & (capacity - 1);
-        if (table[idx] == null) {
-            return null;
-        }
-        Entry<K, V> pointer = table[idx];
-        do {
-            if (pointer.value.equals(value)){
-                return pointer.key;
-            }
-            pointer = pointer.next;
-        } while (pointer != null);
-        return null;
-    }
-*/
     @Override
     public  String toString() {
         int counter = 0;
@@ -90,7 +87,7 @@ public class HashTable<K, V> {
         return sb.append("}").toString();
     }
 
-    private class Entry<K, V>{
+    public class Entry<K, V>{
         int hash;
         K key;
         V value;
