@@ -1,5 +1,13 @@
 package homework15;
 
+/**
+ * Java. Homework №15.
+ *
+ * @author Yurii Kuzmenko java_39e
+ * @version 19.12.2022 - 22.12.2022
+ */
+
+
 public class Lesson15 {
     public static void main(String[] args) {
         HashTable<String, String> hashTable = new HashTable<>();
