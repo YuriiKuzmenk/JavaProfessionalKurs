@@ -26,8 +26,12 @@ public class HashTable<K, V> {
         if(table[idx] == null) {
             table[idx] = entry;
         } else {
+            Entry<K, V>predPointer;
             Entry<K, V> pointer = table[idx];
-            while(pointer.next != null) {
+            do {
+
+            }
+            while(pointer.next != null) ;{
                 if (pointer.key.equals(key)){
                     pointer.value = value;
                     return;
@@ -57,6 +61,7 @@ public class HashTable<K, V> {
         if (table[idx] == null) {
             return null;
         }
+        Entry<K, V> predPointer = null;
         Entry<K, V> pointer = table[idx];
         do {
             if (pointer.key.equals(key)){

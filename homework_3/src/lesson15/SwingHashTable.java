@@ -16,7 +16,7 @@ public class SwingHashTable extends JFrame {
     public static void main(String[] args) {
         new SwingHashTable();
     }
-
+/*
     public SwingHashTable() {
         setTitle("HashTable");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
@@ -36,9 +36,17 @@ public class SwingHashTable extends JFrame {
             if(tokens[0].equals("put")) {
                 hashTable.put(tokens[1], tokens[2]);
             }
+            if (tokens[0].equals("remove")) {
+                result = hashTable.remove(tokens[1]);
+            }
+            if (tokens[0].equals("get")) {
+
+            }
             textField.setText("");
             canvasPanel.repaint();
         });
+
+
         JPanel bottomPanel = new JPanel();
         bottomPanel.setLayout(new BoxLayout(bottomPanel, BoxLayout.X_AXIS));
         bottomPanel.add(textField);
@@ -51,7 +59,7 @@ public class SwingHashTable extends JFrame {
         setLocationRelativeTo(null);
         setVisible(true);
     }
-
+*/
     private void initHashTable() {
         hashTable.put("Kyiv", "Ukraine");
         hashTable.put("Kyiv", "Ukraine");
