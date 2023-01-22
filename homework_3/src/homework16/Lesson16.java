@@ -21,11 +21,22 @@ public class Lesson16 {
         int c = multiplication.calculate(5, 5);
         int d = divide1.calculate(8, 3);
         int e = divide2.calculate(8, 3);
-
+        int i=0;
 
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
-        System.out.println(d + "," + e);
+        do {
+
+            if (i==1) {System.out.print(",");};
+            if (i==0) {System.out.print(d);}
+            else {
+                d=divide1.calculate(e*10, 3);
+                e=divide2.calculate(d,3);
+                System.out.print(d);
+            };
+            i++;
+
+        } while (d!=0 || i!=3);
     }
 }
