@@ -1,0 +1,21 @@
+(1) удалить всех поставщиков (suppliers) из США.
+1. DELETE FROM [Suppliers]
+   WHERE Country="USA"
+
+(2) вывести все товары (products) с ценой в диапазоне от 100 до 200 с сортировкой по убыванию цены
+2. SELECT * FROM [Products]
+   WHERE Price>=100 AND Price <=200
+   ORDER BY Price DESC
+
+(3) очистить поле ContactName для всех клиентов (customers), кроме тех, что из Германии и Франции
+3. UPDATE Customers
+   SET ContactName=''
+   WHERE Country != 'Germany' AND Country != 'France'
+
+(4) вывести пять самых дорогих товаров из категории 2 и 3
+4. SELECT * FROM [Products]
+   ORDER BY Price DESC LIMIT 5
+
+(5) удалить всех поставщиков не из Токио
+5. DELETE FROM [Suppliers]
+   WHERE City != 'Tokyo'
