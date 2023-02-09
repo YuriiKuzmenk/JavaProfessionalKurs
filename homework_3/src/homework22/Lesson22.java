@@ -21,7 +21,8 @@ public class Lesson22 {
             arr[i] = 1;
         }
         long a = System.currentTimeMillis();
-        method1(arr, size);
+        method1(arr);
+        System.out.println(arr[0] + " "+ arr[4999999]+" "+arr[9999999]);
         System.out.println("Method1 time: " + (System.currentTimeMillis() - a) + " ms.");
         arrS = Arrays.copyOf(arr, size);
         System.out.println(arrS[0]+" "+arrS[arrS.length-1]);
@@ -32,7 +33,7 @@ public class Lesson22 {
         System.out.println(arr.length+" "+ arrS.length+ " " +arrS[0]+ " " +arr[0]+ " " +arrS[size-1]+ " " +arr[size-1]);
     }
 
-    public static void method1(float []arr, int size) {
+    public static void method1(float []arr) {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = (float) (arr[i] * Math.sin(0.2f + i / 5) * Math.cos(0.2f + i / 5) * Math.cos(0.4f + i / 2));
         }
@@ -55,7 +56,7 @@ public class Lesson22 {
         thread1.join();
         Thread thread2 = new Thread(() -> {
             for (int i = 0; i < arr2.length; i++) {
-                arr[i+arr2.length-1] = (float) (arr2[i] * Math.sin(0.2f + i / 5) * Math.cos(0.2f + i / 5) * Math.cos(0.4f + i / 2));
+                arr[i+arr2.length] = (float) (arr2[i] * Math.sin(0.2f + i / 5) * Math.cos(0.2f + i / 5) * Math.cos(0.4f + i / 2));
             }
         });
         thread2.start();
