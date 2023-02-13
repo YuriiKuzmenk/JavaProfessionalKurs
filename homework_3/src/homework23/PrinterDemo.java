@@ -1,5 +1,5 @@
 package homework23;
-
+/*
 public class PrinterDemo {
     public static void main(String[] args) {
         Document1 d1 = new Document("doc1", 10);
@@ -11,3 +11,4 @@ public class PrinterDemo {
         new Thread(() -> printer.print(d3)).start();
     }
 }
+*/
