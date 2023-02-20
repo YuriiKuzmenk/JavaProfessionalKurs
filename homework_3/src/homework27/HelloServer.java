@@ -1,4 +1,11 @@
-package lesson27;
+package homework27;
+
+/**
+ * Java. Homework №27.
+ *
+ * @author Yurii Kuzmenko java_39e
+ * @version 16.02.2023 - 20.02.2023
+ */
 
 import java.io.IOException;
 import java.io.PrintWriter;
