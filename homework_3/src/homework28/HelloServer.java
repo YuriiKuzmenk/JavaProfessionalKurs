@@ -1,4 +1,4 @@
-package lesson27;
+package homework28;
 
 import java.io.IOException;
 import java.io.PrintWriter;
